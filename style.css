@@ -1,0 +1,130 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+background:#e5e5e5;
+margin:0;
+}
+
+/* HEADER */
+
+.header{
+background:#8b0000;
+color:white;
+padding:30px;
+font-size:40px;
+text-align:center;
+font-weight:bold;
+}
+
+/* NAVBAR */
+
+.navbar{
+background:#222;
+padding:15px;
+text-align:center;
+}
+
+.navbar a{
+color:white;
+margin:0 30px;
+text-decoration:none;
+font-size:18px;
+}
+
+/* CONTAINER */
+
+.container{
+width:92%;
+margin:40px auto;
+background:white;
+padding:40px;
+border-radius:8px;
+box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+/* TITLE */
+
+h2{
+font-size:30px;
+margin-bottom:10px;
+}
+
+/* TOTAL BOX */
+
+.total-box{
+background:#f8f8f8;
+padding:15px;
+border-left:6px solid #8b0000;
+margin-bottom:20px;
+font-size:18px;
+}
+
+/* ADD BUTTON */
+
+.add-btn{
+background:#8b0000;
+color:white;
+padding:10px 16px;
+border-radius:4px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.add-btn:hover{
+background:#a00000;
+}
+
+/* TABLE BOX */
+
+.table-box{
+margin-top:20px;
+}
+
+/* TABLE */
+
+table{
+width:100%;
+border-collapse:collapse;
+font-size:16px;
+}
+
+/* TABLE HEADER */
+
+th{
+background:#8b0000;
+color:white;
+padding:15px;
+text-align:left;
+}
+
+/* TABLE DATA */
+
+td{
+padding:15px;
+border-bottom:1px solid #ddd;
+}
+
+/* ROW COLOR */
+
+tr:nth-child(even){
+background:#f5f5f5;
+}
+
+tr:hover{
+background:#eee;
+}
+
+/* BUTTON */
+
+input[type="submit"]{
+background:#444;
+color:white;
+border:none;
+padding:6px 12px;
+margin:2px;
+border-radius:4px;
+cursor:pointer;
+}
+
+input[type="submit"]:hover{
+background:#8b0000;
+}
